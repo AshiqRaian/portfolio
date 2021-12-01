@@ -82,7 +82,6 @@ section .heading{
 	}
 /*----GLOBAL HEADING END---*/
 
-
 /*----ABOUT section STARTS---*/
 #about .col-lg-3{
 	text-align: center;
@@ -152,7 +151,6 @@ section .heading{
 		}
 /*----SERVICE section END---*/
 
-
 /*----PROJECT section STARTS---*/
 #project .col-lg-4 div{
 		height: 500px;
@@ -196,7 +194,6 @@ section .heading{
 		}
 
 /*----PROJECT section END---*/
-
 
 /*----FEEDBACK section STARTS---*/
 #feedback{
@@ -318,6 +315,7 @@ section .heading{
 	#contact .form-control{
 		border: none; 
 		background: #1E242C;
+		color: #fff;
 	}
 	#contact button{
 		text-transform: uppercase;
@@ -369,10 +367,8 @@ section .heading{
 
 /*----FOOTER section ENDS---*/
 
-
 /*---- RESPONSIVE PART STARTS---*/
 @media (max-width: 991px){
-
 		nav .container .nav-item{
 				padding-right: 15px;
 				font-size: 14px
@@ -389,7 +385,6 @@ section .heading{
 }
 
 @media (max-width: 767px){
-
 		nav .container .nav-item{
 				padding-right: 0px;
 			}
@@ -407,7 +402,6 @@ section .heading{
 }
 
 @media (max-width: 575px){
-
 		body{
 			text-align: center;
 		}
