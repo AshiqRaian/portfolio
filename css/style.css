@@ -214,7 +214,7 @@ section .heading{
 #feedback .row {
 	padding-top: 3%;
 }
-	#feedback .row .col-md-4 .d-flex{
+	#feedback .row .col-sm-4 .d-flex{
 		background: #fff;
 		color: #000;
 		justify-content: center;
