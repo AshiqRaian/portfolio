@@ -222,15 +222,15 @@ section .heading{
 		margin: 0 35px;
 		padding: 25px 0 15px;
 	}
-		#feedback .row .col-md-4 .d-flex i{
+		#feedback .row .col-sm-4 .d-flex i{
 			font-size: 44pt;
 			color: #04C2C9;
 			padding-right: 4%; 
 		}
-		#feedback .row .col-md-4 .d-flex div h4{
+		#feedback .row .col-sm-4 .d-flex div h4{
 			font-weight: 600;
 		}
-		#feedback .row .col-md-4 .d-flex div p{
+		#feedback .row .col-sm-4 .d-flex div p{
 		}
 /*----FEEDBACK section END---*/
 
