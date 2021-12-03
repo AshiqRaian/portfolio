@@ -425,9 +425,14 @@
 
       <form action="contact.php" id="signupForm" method="POST">
 
-        <div><input type="text" class="form-control" id="name" placeholder="Name" name="name" minlength="3" required></div>
-        <div><input type="email" class="form-control" id="email" placeholder="Email" name="email" required></div>
-        <div><textarea rows="4" class="form-control" id="message" placeholder="Message" name="message" required></textarea></div>
+        <div><input type="text" class="form-control" id="name" name="name" placeholder="Name" required value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+        </div>
+        
+        <div><input type="email" class="form-control" id="email" name="email" placeholder="Email" required value="<?php echo htmlspecialchars($_POST['email']); ?>">
+							<?php echo "<p class='text-danger'>$errEmail</p>";?></div>
+        <div><textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+							<?php echo "<p class='text-danger'>$errMessage</p>";?></div>
               
         <div class="text-end"><button class="submit" type="submit" name="submit">Send</button></div>
 
