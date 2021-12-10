@@ -411,5 +411,8 @@ section .heading{
 		h1{
 			font-size: 24pt;
 		}
+		#about .col-lg-3{
+			order: 2;
+		}
 }
 /*----RESPONSIVE PART END---*/
