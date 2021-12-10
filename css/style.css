@@ -413,6 +413,8 @@ section .heading{
 		}
 		#about .col-lg-3{
 			order: 2;
+    			margin-top: 25px;
+    			width: 50%;
 		}
 }
 /*----RESPONSIVE PART END---*/
